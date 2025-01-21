@@ -1,0 +1,21 @@
+name: cafe
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.2.0 # Google Maps埋め込み
+  firebase_core: ^2.5.0
+  firebase_auth: ^4.8.1
+  flutter_riverpod: ^2.3.6
+  shared_preferences: ^2.1.1 # ローカルストレージ
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true
