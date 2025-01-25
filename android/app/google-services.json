@@ -12,12 +12,7 @@
           "package_name": "com.example.cafe"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "79907331335-h5a33hm3knsots5c8hp1kelsi70jripg.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
           "current_key": "AIzaSyDEqvwNi5nwvOrdN7W5H9K3ujG5RP-vWts"
@@ -25,19 +20,7 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "79907331335-h5a33hm3knsots5c8hp1kelsi70jripg.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "79907331335-sbfrm5v8g8dpp29qfj7bkc3mj7m3e6jq.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.cafe"
-              }
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

@@ -1,21 +1,25 @@
-name: cafe
-description: "A new Flutter project."
-publish_to: 'none' 
+name: my_app
+description: A new Flutter project.
+publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.5.3
+  sdk: ">=2.17.3 <3.0.0"
 dependencies:
   flutter:
     sdk: flutter
-  firebase_core: ^2.5.0
-  firebase_auth: ^4.8.1
-  flutter_riverpod: ^2.3.6
-  google_sign_in: ^5.4.0
-  shared_preferences: ^2.1.1 # ローカルストレージ
+
+  cupertino_icons: ^1.0.2
+  google_maps_flutter: ^2.1.8
+  geolocator: ^9.0.0
+  geocoding: ^2.0.4
+  flutter_polyline_points: ^1.0.0
+  flutter_dotenv: ^5.0.2
+  flutter_riverpod: ^2.0.3
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+  flutter_lints: ^2.0.0
 flutter:
   uses-material-design: true
